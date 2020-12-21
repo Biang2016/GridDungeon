@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using BiangStudio.GameDataFormat.Grid;
-using BiangStudio.GamePlay.UI;
-using BiangStudio.Singleton;
+using BiangLibrary.GameDataFormat.Grid;
+using BiangLibrary.GamePlay.UI;
+using BiangLibrary.Singleton;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -77,7 +77,7 @@ public class LevelManager : MonoSingleton<LevelManager>
         Reward = 0;
         CurrentSelectedSkillKey = String.Empty;
         GameStateManager.Instance.SetState(GameState.Waiting);
-        NewSkillSelectPanel = UIManager.Instance.ShowUIForms<NewSkillSelectPanel>();
+        NewSkillSelectPanel.Show();
         NewSkillSelectPanel.RefreshSkillShop(currentLevel.ShopSkillItemCount);
         SkillSelectPanel.InGameUI.SetActive(false);
     }
@@ -176,7 +176,6 @@ public class LevelManager : MonoSingleton<LevelManager>
     public void StartGame()
     {
         NewSkillSelectPanel = UIManager.Instance.ShowUIForms<NewSkillSelectPanel>();
-        NewSkillSelectPanel.CloseUIForm();
         SkillSelectPanel = UIManager.Instance.ShowUIForms<SkillSelectPanel>();
 
         LoadSkills();

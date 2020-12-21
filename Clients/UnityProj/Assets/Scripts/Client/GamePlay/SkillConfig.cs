@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using BiangStudio;
-using BiangStudio.CloneVariant;
-using BiangStudio.GameDataFormat;
-using BiangStudio.GameDataFormat.Grid;
+using BiangLibrary;
+using BiangLibrary.CloneVariant;
+using BiangLibrary.GameDataFormat;
+using BiangLibrary.GameDataFormat.Grid;
 using UnityEngine;
 
 [Serializable]

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
-using BiangStudio.GamePlay.UI;
+using BiangLibrary.GamePlay.UI;
 using UnityEngine.UI;
 
 public class SkillSelectPanel : BaseUIPanel

@@ -62,12 +62,12 @@ MonoBehaviour:
     SkillKey: Skill_1
     CoinCost: 10
     probability: 1
-    SkillColor: {r: 0.036606792, g: 0.0036018812, b: 0, a: 2}
+    SkillColor: {r: 1.6427553, g: 1.2001959, b: 0, a: 2}
     OccupiedPositions:
     - GridPos:
         x: 0
         z: 0
-      SkillGridType: 2
+      SkillGridType: 1
     - GridPos:
         x: 1
         z: 0
@@ -1046,12 +1046,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f9326580684819541b85806087871bf7,
+      objectReference: {fileID: 21300000, guid: c7c9141fcd91d6f49976de01a66d2402,
         type: 3}
     - target: {fileID: 7055242520266366906, guid: a664d58aa37490a4ea0471d201e195d1,
         type: 3}
       propertyPath: SkillGridType
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a664d58aa37490a4ea0471d201e195d1, type: 3}

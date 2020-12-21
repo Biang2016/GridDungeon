@@ -1,5 +1,5 @@
 ﻿using System.Collections;
-using BiangStudio.GameDataFormat.Grid;
+using BiangLibrary.GameDataFormat.Grid;
 using UnityEngine;
 using UnityEngine.UI;
 

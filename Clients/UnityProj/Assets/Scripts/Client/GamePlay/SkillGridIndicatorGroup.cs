@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using BiangStudio.GameDataFormat.Grid;
+using BiangLibrary.GameDataFormat.Grid;
 using UnityEngine;
 
 public class SkillGridIndicatorGroup : MonoBehaviour

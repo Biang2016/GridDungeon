@@ -61,7 +61,7 @@ MonoBehaviour:
     SkillKey: Skill_4
     CoinCost: 7
     probability: 1
-    SkillColor: {r: 0.48283774, g: 0.616399, b: 0, a: 2}
+    SkillColor: {r: 1.5331004, g: 0.37425894, b: 0, a: 2}
     OccupiedPositions:
     - GridPos:
         x: 1
@@ -74,15 +74,15 @@ MonoBehaviour:
     - GridPos:
         x: -1
         z: -1
-      SkillGridType: 2
+      SkillGridType: 0
     - GridPos:
         x: 0
         z: -1
-      SkillGridType: 2
+      SkillGridType: 0
     - GridPos:
         x: -2
         z: 2
-      SkillGridType: 1
+      SkillGridType: 2
     - GridPos:
         x: -1
         z: 2
@@ -94,7 +94,7 @@ MonoBehaviour:
     - GridPos:
         x: 1
         z: 2
-      SkillGridType: 1
+      SkillGridType: 2
   TintColor: {r: 1, g: 0.6076495, b: 0, a: 1}
 --- !u!222 &160025383772358591
 CanvasRenderer:
@@ -633,12 +633,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f9326580684819541b85806087871bf7,
+      objectReference: {fileID: 21300000, guid: c5ac950c7844d6143aa42d3eb6a319f6,
         type: 3}
     - target: {fileID: 7055242520266366906, guid: a664d58aa37490a4ea0471d201e195d1,
         type: 3}
       propertyPath: SkillGridType
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a664d58aa37490a4ea0471d201e195d1, type: 3}
@@ -769,12 +769,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f9326580684819541b85806087871bf7,
+      objectReference: {fileID: 21300000, guid: c5ac950c7844d6143aa42d3eb6a319f6,
         type: 3}
     - target: {fileID: 7055242520266366906, guid: a664d58aa37490a4ea0471d201e195d1,
         type: 3}
       propertyPath: SkillGridType
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a664d58aa37490a4ea0471d201e195d1, type: 3}
@@ -1041,12 +1041,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c7c9141fcd91d6f49976de01a66d2402,
+      objectReference: {fileID: 21300000, guid: f9326580684819541b85806087871bf7,
         type: 3}
     - target: {fileID: 7055242520266366906, guid: a664d58aa37490a4ea0471d201e195d1,
         type: 3}
       propertyPath: SkillGridType
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a664d58aa37490a4ea0471d201e195d1, type: 3}
@@ -1177,12 +1177,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c7c9141fcd91d6f49976de01a66d2402,
+      objectReference: {fileID: 21300000, guid: f9326580684819541b85806087871bf7,
         type: 3}
     - target: {fileID: 7055242520266366906, guid: a664d58aa37490a4ea0471d201e195d1,
         type: 3}
       propertyPath: SkillGridType
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a664d58aa37490a4ea0471d201e195d1, type: 3}

@@ -59,7 +59,7 @@ MonoBehaviour:
     SkillKey: Skill_23
     CoinCost: 4
     probability: 1
-    SkillColor: {r: 0.4210723, g: 0.13344258, b: 0, a: 2}
+    SkillColor: {r: 1.0305728, g: 0.68183625, b: 0, a: 2}
     OccupiedPositions:
     - GridPos:
         x: 1

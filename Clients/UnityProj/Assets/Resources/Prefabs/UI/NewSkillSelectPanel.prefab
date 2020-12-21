@@ -311,6 +311,7 @@ GameObject:
   - component: {fileID: 8574527726588531845}
   - component: {fileID: 8618639940946399466}
   - component: {fileID: 2020266776806415855}
+  - component: {fileID: 2074220037072146102}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -419,6 +420,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!95 &2074220037072146102
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8574527726588531847}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1532a09dbf9de5c49a8378c55503edc8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8574527727166464268
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,6 +497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a69de908cbcd2f4fa056649f4e878d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PanelAnim: {fileID: 2074220037072146102}
   CurrentCoinText: {fileID: 4664229485737054033}
   SkillButtonContainer: {fileID: 8574527727472687401}
   ReturnButton: {fileID: 1505229807172260627}

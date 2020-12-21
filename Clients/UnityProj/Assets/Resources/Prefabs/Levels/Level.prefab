@@ -46,8 +46,8 @@ MonoBehaviour:
   LevelConfigList:
   - LevelIndex: 1
     SideLength: 4
-    StepLimit: 999
-    ShopSkillItemCount: 50
+    StepLimit: 5
+    ShopSkillItemCount: 3
   - LevelIndex: 2
     SideLength: 5
     StepLimit: 7

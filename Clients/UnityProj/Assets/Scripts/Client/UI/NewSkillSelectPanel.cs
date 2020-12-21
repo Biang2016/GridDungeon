@@ -1,14 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using BiangStudio;
-using BiangStudio.GameDataFormat;
-using BiangStudio.GamePlay.UI;
+using BiangLibrary;
+using BiangLibrary.GamePlay.UI;
 using UnityEngine.UI;
 
 public class NewSkillSelectPanel : BaseUIPanel
 {
+    public Animator PanelAnim;
+
     void Awake()
     {
         UIType.InitUIType(
@@ -20,7 +20,7 @@ public class NewSkillSelectPanel : BaseUIPanel
             UIFormLucencyTypes.Penetrable);
         ReturnButton.onClick.AddListener(() =>
         {
-            CloseUIForm();
+            Close();
             LevelManager.Instance.LoadNextLevel();
         });
     }
@@ -100,5 +100,15 @@ public class NewSkillSelectPanel : BaseUIPanel
         }
 
         SkillButtonDict.Clear();
+    }
+
+    public void Show()
+    {
+        PanelAnim.SetTrigger("Jump");
+    }
+
+    public void Close()
+    {
+        PanelAnim.SetTrigger("Hide");
     }
 }

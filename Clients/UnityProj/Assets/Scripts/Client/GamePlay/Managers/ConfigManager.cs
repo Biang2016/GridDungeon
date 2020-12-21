@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using BiangStudio;
-using BiangStudio.Singleton;
+using BiangLibrary;
+using BiangLibrary.Singleton;
 using Sirenix.OdinInspector;
 using Sirenix.Serialization;
 using UnityEngine;
